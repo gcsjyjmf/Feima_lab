@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fei\'s Android Labs</string>
+    <string name="button_text">i am a button</string>
 </resources>
