@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                                                 } catch (FileNotFoundException e) {
                                                     e.printStackTrace();
                                                 }
+
                                                 runOnUiThread( () -> {
                                                     binding.icon.setImageBitmap(image);
                                                     binding.icon.setVisibility(View.VISIBLE);
